@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Manon Costard</title>
+</head>
+<body>
+    <div id="mainBackground" class="main-background">
+        <img src="./resources/portfolio-background.png">
+    </div>
+    <div id="homeBanner" class="full-width-banner flex-centered">
+        <h1>Manon Costard</h1>
+        <h2>Full-Stack Developer</h2>
+    </div>
+    <header id="header" class="flex-centered">
+        <div id="headerDiv" class="flex-row-left">
+            <div onclick="toHome()" class="header-button flex-centered">
+                <p>HOME</p>
+            </div>
+            <div onclick="toAbout()" class="header-button flex-centered">
+                <p>ABOUT</p>
+            </div>
+            <div onclick="toPortfolio()" class="header-button flex-centered">
+                <p>PORTFOLIO</p>
+            </div>
+            <div onclick="toContact()" class="header-button flex-centered">
+                <p>CONTACT</p>
+            </div>
+        </div>
+        <div id="mobileHeader" class="flex-centered">
+            <div onclick="toAbout()" class="header-button flex-centered mobile-header-button">
+                <p>ABOUT</p>
+            </div>
+            <div onclick="toPortfolio()" class="header-button flex-centered mobile-header-button">
+                <p>PORTFOLIO</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="aboutPortfolio" class="main-div main-div-background flex-centered">
+            <div id="about" class="main-div-content">
+                <div id="aboutMe" class="content-div">
+                    <h3>About me</h3>
+                    <div>
+                        <p>I am a full-stack developer who loves working on the design and creativity of the solutions’ front-end as much as on their back-end’s architecture and business logic.</p>
+                        <p>As an MBA graduate, I also know the importance of understanding the needs and visions of the business / client. I am eager to creating the solution customised to the specific needs of each project. </p>
+                        <p>Previously a professional athlete, I truly recognise the value of quality through attention to details and continuous learning. My aim is to apply this to my code to make the UI/UX experience the smoothest and most efficient possible as well as to enhance the performance of the solution through a well developed back-end. </p>
+                    </div>
+                </div>
+                <div id="languages" class="content-div">
+                    <h3>Languages</h3>
+                    <div class="flex-row-left">
+                        <div class="language">
+                            <p>HTML</p>
+                        </div>
+                        <div class="language">
+                            <p>CSS</p>
+                        </div>
+                        <div class="language">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="language">
+                            <p>Java</p>
+                        </div>
+                        <div class="language">
+                            <p>PHP</p>
+                        </div>
+                        <div class="language">
+                            <p>SQL</p>
+                        </div>
+                        <div class="language">
+                            <p>NOSQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio" class="main-div-content content-div flex-centered">
+                <h3>Portfolio</h3>
+                <div id="portfolioBlocs" class="flex-centered">
+                    <div id="portfolioStats" class="portfolio-unit">
+                        <img id="pu1-i1" class="portfolio-unit-image1" src="./resources/pu1-i1.png">
+                        <img id="pu1-i2" class="portfolio-unit-image2 hide" src="./resources/pu1-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>Skier Stats</h4>
+                                <p class="portfolio-unit-languages">PHP, SQL, JavaScript, MySql</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="https://stats.waterskiprotour.com/?y=2023&discipline=Slalom&division=Men&skierName=William+Asher" target="_blank">Visit Site</a></div>
+                        </div>
+                    </div>
+                    <div id="portfolioMC" class="portfolio-unit">
+                        <img id="pu2-i1" class="portfolio-unit-image1" src="./resources/pu2-i1.png">
+                        <img id="pu2-i2" class="portfolio-unit-image2 hide" src="./resources/pu2-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>My Portfolio</h4>
+                                <p class="portfolio-unit-languages">HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="" target="_blank">Visit Site</a></div>
+                        </div>
+                    </div>
+                    <div id="portfolioAPI" class="portfolio-unit">
+                        <img id="pu3-i1" class="portfolio-unit-image1" src="./resources/pu3-i1.png">
+                        <img id="pu3-i2" class="portfolio-unit-image hide" src="./resources/pu3-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>REST API</h4>
+                                <p class="portfolio-unit-languages">Java, SpringBoot, PostgreSql</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="" target="_blank">Visit Site</a></div>
+                        </div>
+                    </div>
+                    <div id="portfolioWPT" class="portfolio-unit">
+                        <img id="pu4-i1" class="portfolio-unit-image1" src="./resources/pu4-i1.png">
+                        <img id="pu4-i2" class="portfolio-unit-image2 hide" src="./resources/pu4-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>Ski Paradise Acapulco</h4>
+                                <p class="portfolio-unit-languages">JavaScript, Wix CMS, Velo API</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="https://www.skiparadise.com/" target="_blank">Visit Site</a></div>                        
+                        </div>
+                    </div>
+                    <div id="portfolioSPC" class="portfolio-unit">
+                        <img id="pu5-i1" class="portfolio-unit-image1" src="./resources/pu5-i1.png">
+                        <img id="pu5-i2" class="portfolio-unit-image2 hide" src="./resources/pu5-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>Ski Paradise California</h4>
+                                <p class="portfolio-unit-languages">JavaScript, Wix CMS, Velo API</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="https://www.california.skiparadise.com/" target="_blank">Visit Site</a></div>                        
+                        </div>
+                    </div>
+                    <div id="portfolioSPA" class="portfolio-unit">
+                        <img id="pu6-i1" class="portfolio-unit-image1" src="./resources/pu6-i1.png">
+                        <img id="pu6-i2" class="portfolio-unit-image2 hide" src="./resources/pu6-i2.png">
+                        <div class="portfolio-unit-content hide flex-centered">
+                            <div class="flex-centered">
+                                <h4>Waterski Pro Tour</h4>
+                                <p class="portfolio-unit-languages">JavaScript, Wix CMS, Velo API</p>
+                            </div>
+                            <div class="portfolio-unit-button"><a href="https://stats.waterskiprotour.com/?y=2023&discipline=Slalom&division=Men&skierName=William+Asher" target="_blank">Visit Site</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="main-div content-div flex-centered">
+            <div class="main-div-content flex-centered">
+                <div id="contactButton" class="flex-centered header-button main-div-background">
+                    <a href="mailto:manon_costard@hotmail.com">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-centered">
+        <div class="flex-centered">
+            <h5>MANON COSTARD</h5>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
