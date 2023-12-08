@@ -359,6 +359,9 @@ footer {
     line-height: 0;
     }
 
+    #portfolio {
+        padding-top: 70px;
+    }
     .portfolio-unit-content {
         padding: 15% 10px;
     }
