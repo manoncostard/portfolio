@@ -83,8 +83,8 @@ html {
 }
 
 .main-div-background {
-    backdrop-filter: blur(10px) brightness(65%);
-    -webkit-backdrop-filter: blur(10px) brightness(65%);
+    backdrop-filter: blur(10px) brightness(55%);
+    -webkit-backdrop-filter: blur(10px) brightness(55%);
 }
 .content-div {
     margin-top: 100px;
@@ -177,8 +177,8 @@ header {
     height: 60px;
     padding: 0px 30px;
     border-radius: 10px;
-    backdrop-filter: blur(10px) brightness(65%);
-    -webkit-backdrop-filter: blur(10px) brightness(65%);
+    backdrop-filter: blur(10px) brightness(55%);
+    -webkit-backdrop-filter: blur(10px) brightness(55%);
 }
 .header-button {
     padding: 0px 20px;
@@ -227,8 +227,8 @@ header {
 }
 .portfolio-unit {
     background-color: var(--color-light);
-    width: 30vw;
-    height: calc(30vw / 1.5);
+    width: 25vw;
+    height: calc(25vw / 1.5);
     position: relative;
     cursor: pointer;
 }
@@ -309,6 +309,7 @@ footer {
     }
     h2 {
         font-size: 30px;
+        font-weight: 300;
     }
     h3 {
         font-size: 18px;
@@ -320,7 +321,8 @@ footer {
         font-size: 12px;
     }
     p {
-        font-size: 14px;
+        font-size: 16px;
+        color: white
     }
 
     header {
